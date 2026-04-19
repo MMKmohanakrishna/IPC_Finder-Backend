@@ -1,0 +1,29 @@
+{
+  "name": "ipc-finder",
+  "version": "1.0.0",
+  "description": "A web application to find relevant IPC sections based on legal problem descriptions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "ipc",
+    "legal",
+    "indian-penal-code",
+    "law"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
